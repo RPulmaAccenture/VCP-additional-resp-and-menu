@@ -9,7 +9,7 @@ Move the LDT files to /u01/oracle/apps/apps_st/appl/xxnbty/12.0.0/admin/import a
 --upload_menu 
 
 
-FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afsload.lct XXNBTY_INVENTORY_PLANNER_MU.ldt CUSTOM_MODE=FORCE
+FNDLOAD apps/PASSWORD 0 Y UPLOAD $FND_TOP/patch/115/import/afsload.lct XXNBTY_INVENTORY_PLANNER_MU.ldt UPLOAD_MODE=REPLACE CUSTOM_MODE=FORCE
 
 
 --upload_responsibility
